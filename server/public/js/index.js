@@ -24895,7 +24895,7 @@
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * @Author: baixiaoming
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * @Date: 2018-10-06 13:56:45
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * @Last Modified by: baixiaoming
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * @Last Modified time: 2018-10-06 21:43:33
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * @Last Modified time: 2018-10-06 21:53:11
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      */
 
 	var _jquery = __webpack_require__(330);
@@ -25248,7 +25248,6 @@
 	                arr.push(number[index]);
 	                number.splice(index, 1); // 移除已经push的数，保证每次号码不重复
 	            }
-
 	            return arr.join(' ');
 	        }
 
@@ -25420,7 +25419,7 @@
 	 * @Author: baixiaoming
 	 * @Date: 2018-10-06 13:56:45
 	 * @Last Modified by: baixiaoming
-	 * @Last Modified time: 2018-10-06 21:40:12
+	 * @Last Modified time: 2018-10-06 21:48:43
 	 */
 
 	var Calc = function () {
@@ -25444,7 +25443,7 @@
 
 	            // 排列组合
 	            if (exist && palyType.at(0) === 'r') {
-	                count = Calc.combine(arr, palyType.at(1));
+	                count = Calc.combine(arr, palyType.at(1)).length;
 	            }
 
 	            return count;

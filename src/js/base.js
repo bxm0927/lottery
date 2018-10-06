@@ -3,7 +3,7 @@
  * @Author: baixiaoming
  * @Date: 2018-10-06 13:56:45
  * @Last Modified by: baixiaoming
- * @Last Modified time: 2018-10-06 21:45:01
+ * @Last Modified time: 2018-10-06 21:53:11
  */
 
 import $ from "jquery";
@@ -284,7 +284,6 @@ class Base {
             arr.push(number[index]);
             number.splice(index, 1); // 移除已经push的数，保证每次号码不重复
         }
-
         return arr.join(' ');
     }
 

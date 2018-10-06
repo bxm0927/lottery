@@ -4,7 +4,7 @@
  * @Author: baixiaoming
  * @Date: 2018-10-06 13:56:45
  * @Last Modified by: baixiaoming
- * @Last Modified time: 2018-10-06 21:40:12
+ * @Last Modified time: 2018-10-06 21:48:43
  */
 
 class Calc {
@@ -55,7 +55,7 @@ class Calc {
 
         // 排列组合
         if (exist && palyType.at(0) === 'r') {
-            count = Calc.combine(arr, palyType.at(1))
+            count = Calc.combine(arr, palyType.at(1)).length;
         }
 
         return count;
