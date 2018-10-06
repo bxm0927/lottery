@@ -1,0 +1,43 @@
+# fe
+node_modules
+dist/
+npm-debug.log
+
+# java
+*.class
+# *.jar
+*.war
+*.ear
+
+# maven
+target/
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# IDEA
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+# VSCode
+.vscode/
+package-lock.json
+
+# KDiff3
+*.orig
+
+# tmp & log & cache & diff & patch
+*.tmp
+*.log
+*.cache
+*.diff
+*.patch
+
+# system
+.DS_Store
+Thumbs.db
