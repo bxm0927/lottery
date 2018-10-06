@@ -17,24 +17,8 @@ ES6零基础教学_解析彩票项目-慕课网实战：https://coding.imooc.com
 ## 目录结构
 
 前端源代码 src
-
-    - css
-    - js
-        - class
-    - pages
-        - index.ejs
-        - error
-            - 404.ejs
-            - 500.ejs
-
 服务器目录 server
-
-    -
-
 构建目录 tasks
-
-    -
-
 package.json
 gulpfile.babel.js
 .babelrc
@@ -51,6 +35,10 @@ npm install
 ## 快速开始
 
 安装 Node.js
+
+```sh
+npm run dev # 相当于 gulp --watch
+```
 
 ## 核心功能模块
 
