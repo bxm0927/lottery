@@ -2,6 +2,8 @@
 
 ES6零基础教学_解析彩票项目-慕课网实战：https://coding.imooc.com/class/98.html
 
+项目演示地址：http://es6lottery.t.imooc.io/#
+
 学习目的：学习ES6语法，使用ES6开发复杂度较高的彩票项目，完整的开发项目流程，掌握如何最佳的发挥ES6优势。
 
 11选5（01-11），每10钟开一期。
